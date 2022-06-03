@@ -16,7 +16,8 @@ function confirmAnswer() {
     }
 }
 
-var song = new Audio('./Songs/' + addZerosBeforeNumber(getTodaysNumber()) + '.mp3');
+var song = new Audio('./Songs/' + addZerosBeforeNumber(getTodaysNumber()) + '.mp3')
+
 function playSong() {
     song.volume = .5;
     song.play();
