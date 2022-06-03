@@ -25,7 +25,7 @@ function playSong() {
 
 function getTodaysNumber(){
     var date1 = new Date();
-    var date2 = new Date("06/02/22");
+    var date2 = new Date("06/03/22");
     
     // To calculate the time difference of two dates
     var Difference_In_Time = date1.getTime() - date2.getTime();
