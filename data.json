@@ -1,0 +1,56 @@
+data = [
+    {
+        "ArtistName":"Leotrix",
+        "SongName":"Sight",
+        "SourceLink":"https://www.youtube.com/embed/NxfV5_SycQ4?start=26",
+        "Number":"0",
+    },
+    {
+        "ArtistName":"MUST DIE!",
+        "SongName":"CHAOS",
+        "SourceLink":"https://www.youtube.com/embed/LplkeM206Xs?start=43",
+        "Number":"1",
+    },
+    {
+        "ArtistName":"Herobust",
+        "SongName":"Dirty Work",
+        "SourceLink":"https://www.youtube.com/embed/9kdIB-ohUtw?start=64",
+        "Number":"2",
+    },
+    {
+        "ArtistName":"SVDDEN DEATH",
+        "SongName":"Rise",
+        "SourceLink":"https://www.youtube.com/embed/sp82Dj_eI4E?start=27",
+        "Number":"3",
+    },
+    {
+        "ArtistName":"Getter",
+        "SongName":"Inhalant Abuse",
+        "SourceLink":"https://www.youtube.com/embed/Dk71nmMHrmc?start=37",
+        "Number":"4",
+    },
+    {
+        "ArtistName":"Papa Khan",
+        "SongName":"Rain",
+        "SourceLink":"https://www.youtube.com/embed/T3byauqDrOE?start=38",
+        "Number":"5",
+    },
+    {
+        "ArtistName":"G-REX & PEEKABOO",
+        "SongName":"Babatunde",
+        "SourceLink":"https://www.youtube.com/embed/sgJS4sbcYiM?start=53",
+        "Number":"6",
+    },
+    {
+        "ArtistName":"Ximm",
+        "SongName":"False",
+        "SourceLink":"https://www.youtube.com/embed/diNHbXWGp8I?start=41",
+        "Number":"7",
+    },
+    {
+        "ArtistName":"Pegboard Nerds",
+        "SongName":"Self Destruct",
+        "SourceLink":"https://www.youtube.com/embed/lWDnwTsdtaw?start=55",
+        "Number":"8",
+    },
+]
