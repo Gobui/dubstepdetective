@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body onload="loadPastGames()">
+        <script type="text/javascript" src="data.json"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+        
+        <div class="main">
+            <h1>Dubstep Detective</h1>
+            
+            <div id="content">
+                <p>Guess EDM songs with only one bass hit as a hint.</p>
+                <button id="songButton" onclick="playSong()">Play Bass Hit!</button>
+                <br>
+                
+                <input type = "text" placeholder= "Guess the song title here" id="guessField">
+                <button onclick="confirmAnswer()" id="enterButton">Submit</button>
+                <p id="subtitle">You only need to guess the track name.</p>
+            
+                <div id="response">
+                </div>
+            </div>
+        </div>
+        
+        <div id="pastGames">
+            <div id="counter">A new mystery song comes out every midnight in your local timezone :)</div>
+            <p>Please don't try and cheat or break my game, I know it's super flawed and I suck at coding lol</p>
+            <p>All songs used belong to their respective copyright owner(s). If you want a track removed, email me at: gobuibiz@gmail.com </p>
+            <h1>Past Answers</h1>
+        </div>
+        
+    </body>
+    
+</html>

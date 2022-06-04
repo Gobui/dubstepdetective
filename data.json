@@ -1,0 +1,377 @@
+data = [
+    {
+        "ArtistName":"Leotrix",
+        "SongName":"Sight",
+        "SourceLink":"https://www.youtube.com/embed/NxfV5_SycQ4?start=26",
+    }, //1
+    {
+        "ArtistName":"MUST DIE!",
+        "SongName":"CHAOS",
+        "SourceLink":"https://www.youtube.com/embed/LplkeM206Xs?start=43",
+    },
+    {
+        "ArtistName":"Aweminus",
+        "SongName":"Sea Shanty",
+        "SourceLink":"https://www.youtube.com/embed/a2Mfro50Fps?start=51",
+    },
+    {
+        "ArtistName":"SVDDEN DEATH",
+        "SongName":"Rise",
+        "SourceLink":"https://www.youtube.com/embed/sp82Dj_eI4E?start=27",
+    },
+    {
+        "ArtistName":"Getter",
+        "SongName":"Inhalant Abuse",
+        "SourceLink":"https://www.youtube.com/embed/Dk71nmMHrmc?start=37",
+    }, //5
+    {
+        "ArtistName":"Papa Khan",
+        "SongName":"Rain",
+        "SourceLink":"https://www.youtube.com/embed/T3byauqDrOE?start=38",
+    },
+    {
+        "ArtistName":"G-REX & PEEKABOO",
+        "SongName":"Babatunde",
+        "SourceLink":"https://www.youtube.com/embed/sgJS4sbcYiM?start=53",
+    },
+    {
+        "ArtistName":"Ximm",
+        "SongName":"False",
+        "SourceLink":"https://www.youtube.com/embed/diNHbXWGp8I?start=41",
+    },
+    {
+        "ArtistName":"Pegboard Nerds",
+        "SongName":"Self Destruct",
+        "SourceLink":"https://www.youtube.com/embed/lWDnwTsdtaw?start=55",
+    },
+    {
+        "ArtistName":"Spass",
+        "SongName":"Hi Tek",
+        "SourceLink":"https://www.youtube.com/embed/tE0jQmCSQlA?start=27",
+    }, //10
+    {
+        "ArtistName":"Akeos & Jub",
+        "SongName":"Duel",
+        "SourceLink":"https://www.youtube.com/embed/cnoUVG86suQ?start=26",
+    },
+    {
+        "ArtistName":"Bukez Finest",
+        "SongName":"Duck Trumpet",
+        "SourceLink":"https://www.youtube.com/embed/42CKIf0ikP8?start=27",
+    },
+    {
+        "ArtistName":"Zomboy",
+        "SongName":"Like A Bitch",
+        "SourceLink":"https://www.youtube.com/embed/kod5PkTm_ts?start=25",
+    },
+    {
+        "ArtistName":"Barely Alive",
+        "SongName":"Wompum",
+        "SourceLink":"https://www.youtube.com/embed/SO2HF1LQ5ZM?start=25",
+    },
+    {
+        "ArtistName":"BLVNKSPVCE",
+        "SongName":"Beepy Boop Song",
+        "SourceLink":"https://www.youtube.com/embed/Ufr0CfhO_TM?start=27",
+    }, //15
+    {
+        "ArtistName":"Subfiltronik",
+        "SongName":"Passout",
+        "SourceLink":"https://www.youtube.com/embed/HkMep2LkFLs?start=27",
+    },
+    {
+        "ArtistName":"Hukae",
+        "SongName":"Dirty Talk",
+        "SourceLink":"https://www.youtube.com/embed/fdPSjrHGiFQ?start=26",
+    },
+    {
+        "ArtistName":"Griz & Subtronics",
+        "SongName":"Griztronics",
+        "SourceLink":"https://www.youtube.com/embed/SodDWXUtTT4?start=41",
+    },
+    {
+        "ArtistName":"Knife Party",
+        "SongName":"Centipede",
+        "SourceLink":"https://www.youtube.com/embed/CSemARaqGqE?start=81",
+    },
+    {
+        "ArtistName":"Virtual Riot & Virus Syndicate",
+        "SongName":"Show Up",
+        "SourceLink":"https://www.youtube.com/embed/xOss4Kc8-nc?start=64",
+    }, //20
+    {
+        "ArtistName":"Moore Kismet & Tasha Baxter",
+        "SongName":"Call of the Unicorn",
+        "SourceLink":"https://www.youtube.com/embed/QfljR1xHKeM?start=64",
+    },
+    {
+        "ArtistName":"Azabim, Cybertr0n, & Glockz",
+        "SongName":"Jagerwomb",
+        "SourceLink":"https://www.youtube.com/embed/HLQefc_AGNE?start=27",
+    },
+    {
+        "ArtistName":"Leotrix",
+        "SongName":"Hive Bounce",
+        "SourceLink":"https://www.youtube.com/embed/3ajIOKJgT2g?start=34",
+    },
+    {
+        "ArtistName":"Herobust",
+        "SongName":"WTF",
+        "SourceLink":"https://www.youtube.com/embed/puk5r9b0Gjs?start=101",
+    },
+    {
+        "ArtistName":"phonon",
+        "SongName":"Polyriddim",
+        "SourceLink":"https://www.youtube.com/embed/uE0YFvInlSY?start=41",
+    }, //25
+    {
+        "ArtistName":"Gammer",
+        "SongName":"The Drop",
+        "SourceLink":"https://www.youtube.com/embed/VG8hI_5R2tw?start=51",
+    },
+    {
+        "ArtistName":"DMVU",
+        "SongName":"BLOCCD",
+        "SourceLink":"https://www.youtube.com/embed/5160JYgtxiY?start=54",
+    },
+    {
+        "ArtistName":"Marauda",
+        "SongName":"Death Pit",
+        "SourceLink":"https://www.youtube.com/embed/wqEyheZYTwc?start=26",
+    },
+    {
+        "ArtistName":"Space Laces",
+        "SongName":"Disco Bloodbath",
+        "SourceLink":"https://www.youtube.com/embed/h6Ne6MtcNdU?start=77",
+    },
+    {
+        "ArtistName":"Ace Aura, Skybreak, & Sharks",
+        "SongName":"Another Heart",
+        "SourceLink":"https://www.youtube.com/embed/ylPKKvqg_NY?start=63",
+    }, //30
+    {
+        "ArtistName":"G Jones",
+        "SongName":"Fuck What You Heard",
+        "SourceLink":"https://www.youtube.com/embed/_f_eUt8Fi-U?start=52",
+    },
+    {
+        "ArtistName":"Automhate",
+        "SongName":"MOORG",
+        "SourceLink":"https://www.youtube.com/embed/9UAY_426g1o?start=132",
+    },
+    {
+        "ArtistName":"Fox Stevenson",
+        "SongName":"Miss You",
+        "SourceLink":"https://www.youtube.com/embed/-VJFIlQ_x8A?start=51",
+    },
+    {
+        "ArtistName":"Bommer & Crowell",
+        "SongName":"Yasou",
+        "SourceLink":"https://www.youtube.com/embed/Fl6viIH4UzY?start=27",
+    },
+    {
+        "ArtistName":"Phiso",
+        "SongName":"Pattern Screamer",
+        "SourceLink":"https://www.youtube.com/embed/pUVXVjVHMYY?start=44",
+    }, //35
+    {
+        "ArtistName":"Chime",
+        "SongName":"Phototropic",
+        "SourceLink":"https://www.youtube.com/embed/71AMtQLi-74?start=76",
+    },
+    {
+        "ArtistName":"Eliminate & Shaquille O'Neal",
+        "SongName":"Tear It Up",
+        "SourceLink":"https://www.youtube.com/embed/GKUnYQQgwLA?start=56",
+    },
+    {
+        "ArtistName":"WAVEDASH",
+        "SongName":"Dummo Loop",
+        "SourceLink":"https://www.youtube.com/embed/wjK9iudUaAc?start=28",
+    },
+    {
+        "ArtistName":"Tristam & Braken",
+        "SongName":"Flight",
+        "SourceLink":"https://www.youtube.com/embed/OVMuwa-HRCQ?start=56",
+    },
+    {
+        "ArtistName":"TroyBoi & Skrillex",
+        "SongName":"WARLORDZ",
+        "SourceLink":"https://www.youtube.com/embed/5_Bn7j-H2Eg?start=26",
+    }, //40
+    {
+        "ArtistName":"Infekt",
+        "SongName":"Orgalorg",
+        "SourceLink":"https://www.youtube.com/embed/M2_RCYYBn7Q?start=54",
+    },
+    {
+        "ArtistName":"Veer",
+        "SongName":"Jerk Off",
+        "SourceLink":"https://www.youtube.com/embed/D9yAmKblAOk?start=32",
+    },
+    {
+        "ArtistName":"Oolacile",
+        "SongName":"Riddim Girl",
+        "SourceLink":"https://www.youtube.com/embed/EujP8OKuJP8?start=102",
+    },
+    {
+        "ArtistName":"Au5",
+        "SongName":"Cryptochrome",
+        "SourceLink":"https://www.youtube.com/embed/fmWrHUXkgJM?start=62",
+    },
+    {
+        "ArtistName":"Barely Alive, Nyptane, and XO ELIZA",
+        "SongName":"Electric Lady",
+        "SourceLink":"https://www.youtube.com/embed/J4xiIyvcuPU?start=66",
+    }, //45
+    {
+        "ArtistName":"Soltan",
+        "SongName":"Sahara",
+        "SourceLink":"https://www.youtube.com/embed/R98zyMpjGZQ?start=64",
+    },
+    {
+        "ArtistName":"Neonix",
+        "SongName":"Spacewalk",
+        "SourceLink":"https://www.youtube.com/embed/1Es6HqK_160?start=27",
+    },
+    {
+        "ArtistName":"Dirt Monkey",
+        "SongName":"Lift Off",
+        "SourceLink":"https://www.youtube.com/embed/0gr20tdwgYI?start=51",
+    },
+    {
+        "ArtistName":"Trinergy",
+        "SongName":"Romantic Story",
+        "SourceLink":"https://www.youtube.com/embed/_VOnExrL5ds?start=53",
+    },
+    {
+        "ArtistName":"BadKlaat",
+        "SongName":"Head Crush",
+        "SourceLink":"",
+    }, //50
+    {
+        "ArtistName":"Xilent",
+        "SongName":"The Darkness",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Spag Heddy",
+        "SongName":"Zoom",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Disciple",
+        "SongName":"We Don't Play",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"SVDDEN DEATH",
+        "SongName":"Behemoth",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Virtual Riot",
+        "SongName":"Energy Drink",
+        "SourceLink":"",
+    }, //55
+    {
+        "ArtistName":"Welcome Tune",
+        "SongName":"Versa",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Boombox Cartel & Quix",
+        "SongName":"Supernatural",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Gladez & HEKLER",
+        "SongName":"404",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Ray Volpe",
+        "SongName":"Battle of the Bros",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"DotEXE",
+        "SongName":"Run Away From Me",
+        "SourceLink":"",
+    }, //60
+    {
+        "ArtistName":"Sharks",
+        "SongName":"Opal",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName":"",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"AFK, Carbin, Cody Ray",
+        "SongName":"Boss",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Virtual Riot",
+        "SongName":"CHROMA",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"JoeB",
+        "SongName":"Petrol For Dinner",
+        "SourceLink":"",
+    }, //65
+    {
+        "ArtistName":"Ace Aura",
+        "SongName":"Coma",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Syzy",
+        "SongName":"Goin' Ham",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Franky Nuts",
+        "SongName":"All I Want",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"euphorian & grape milk",
+        "SongName":"sapience",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"Papa Khan & Brave",
+        "SongName":"Fall Apart",
+        "SourceLink":"",
+    }, //70
+    {
+        "ArtistName":"",
+        "SongName":"",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName":"",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName":"",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName":"",
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName":"",
+        "SourceLink":"",
+    }, //75
+]
