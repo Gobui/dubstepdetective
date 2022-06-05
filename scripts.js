@@ -1,5 +1,5 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 50;
+const NumOfSongsSoFar = 71;
 
 document.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
