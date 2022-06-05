@@ -2,6 +2,7 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="PlaySmall.png">
     </head>
     
     <body onload="loadPastGames()">
@@ -13,12 +14,12 @@
             
             <div id="content">
                 <p>Guess EDM songs with only one bass hit as a hint.</p>
-                <button id="songButton" onclick="playSong()">Play Bass Hit!</button>
+                <image src="Play.png" id="songButton" onclick="playSong()"></image>
                 <br>
                 
                 <input type = "text" placeholder= "Guess the song title here" id="guessField">
                 <button onclick="confirmAnswer()" id="enterButton">Submit</button>
-                <p id="subtitle">You only need to guess the track name.</p>
+                <p id="subtitle">You only need to guess the track name. Need a <a href="javascript:hint()">hint?</a> Or <a href="javascript:giveUp()">give up?</a></p>
             
                 <div id="response">
                 </div>
@@ -29,7 +30,9 @@
             <div id="counter">A new mystery song comes out every midnight in your local timezone :)</div>
             <p>Please don't try and cheat or break my game, I know it's super flawed and I suck at coding lol</p>
             <p>All songs used belong to their respective copyright owner(s). If you want a track removed, email me at: gobuibiz@gmail.com </p>
-            <h1>Past Answers</h1>
+            <p>----------</p>
+            <h1>Past Games</h1>
+            <p>Press the buttons below to play past games! Highlight the boxes beside them to reveal the answers.</p>
         </div>
         
     </body>

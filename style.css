@@ -20,7 +20,7 @@ body {
     padding: 50 100;
 }
 
-button {
+image, button {
     background-color: #767676;
     border: none;
     color: white;
@@ -33,9 +33,34 @@ button {
 }
 
 button:hover {
-    background-color: #525252; /* Green */
+    background-color: #525252;
 }
 
 #pastGames {
     padding: 600 100 30;
+}
+
+#spoiler {
+    color: #222222;
+    border-color: #767676;
+    border-style: solid;
+    display: inline-block;
+    width: 500;
+    padding: 5;
+    margin: 0 20 0 20;
+}
+
+#pastSongButton {
+    display: inline;
+    width: 50;
+    transform: translateY(40%);
+}
+
+#pastdate {
+    margin: 80 20 0 20;
+    break-after: always;
+}
+
+a:link {
+  color: #767676;
 }

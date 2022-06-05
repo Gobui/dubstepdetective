@@ -24,9 +24,18 @@ function playSong() {
     song.play();
 }
 
+function playOldSong(value){
+    //console.log(icount);
+    var oldSong = new Audio();
+    oldSong.src = './Songs/' + addZerosBeforeNumber(getTodaysNumber()-value-1) + '.mp3';
+    oldSong.volume = .5;
+    oldSong.play();
+}
+
+
 function getTodaysNumber(){
     var date1 = new Date();
-    var date2 = new Date("06/03/22");
+    var date2 = new Date("06/03/22"); //Starting date?
     
     // To calculate the time difference of two dates
     var Difference_In_Time = date1.getTime() - date2.getTime();
@@ -67,27 +76,69 @@ function showResponse(guessedCorrectlyBoolean) {
     }
 }
 
+function giveUp(){
+    const responseElement = document.getElementById("response");
+    const contentElement = document.getElementById("content");
+    para = document.createElement("p");
+    node = document.createTextNode("");
+    
+    document.getElementById("content").innerHTML = "";
+    node = document.createTextNode("The answer was " + mydata[getTodaysNumber()].SongName + " by " + mydata[getTodaysNumber()].ArtistName + ". Maybe next time!");
+    para.appendChild(node);
+    contentElement.appendChild(para);
+
+    var iframe = document.createElement('iframe');
+    iframe.src = mydata[getTodaysNumber()].SourceLink;
+    iframe.width = "560";
+    iframe.height="315";
+    contentElement.appendChild(iframe);
+}
+
+function hint(){
+    const responseElement = document.getElementById("response");
+    const contentElement = document.getElementById("content");
+    para = document.createElement("p");
+    node = document.createTextNode("");
+    
+    document.getElementById("response").innerHTML = "";
+    node = document.createTextNode(mydata[getTodaysNumber()].ArtistName + " - ???");
+    para.appendChild(node);
+    responseElement.appendChild(para);
+}
+
 function stopLoadingGame(){
     document.getElementById("content").innerHTML = "Sorry, we're under construction for now. Check back later :)";
 }
 
 function loadPastGames() {
-    if (NumOfSongsSoFar < getTodaysNumber()){
+    if (NumOfSongsSoFar <= getTodaysNumber()){
         stopLoadingGame();
-    }
-    
-    var today = new Date();
-    var pastDate = new Date(today);
-    var contentElement = document.getElementById("pastGames");
-    
-    for (let i = 0; i < getTodaysNumber(); i++){
-        pastDate.setDate(pastDate.getDate() - 1);
-        var date = pastDate.toLocaleDateString();
-        
-        para = document.createElement("p");
-        node = document.createTextNode("");
-        node = document.createTextNode(date + " : " + mydata[getTodaysNumber()-1-i].ArtistName + " - " + mydata[getTodaysNumber()-1-i].SongName);
-        para.appendChild(node);
-        contentElement.appendChild(para);
+    } else {
+        var today = new Date();
+        var pastDate = new Date(today);
+        var contentElement = document.getElementById("pastGames");
+
+        for (let i = 0; i < getTodaysNumber(); i++){
+            pastDate.setDate(pastDate.getDate() - 1);
+            var date = pastDate.toLocaleDateString();
+
+            para = document.createElement("p");
+            node = document.createTextNode(date + " : ");
+            para.setAttribute("id", "pastDate");
+            para.appendChild(node);
+            contentElement.appendChild(para);
+
+            var pastSongButton = new Image();
+            pastSongButton.src = 'PlaySmall.png';
+            pastSongButton.setAttribute("id", "pastSongButton");
+            pastSongButton.setAttribute("onclick", "playOldSong("+i+");");
+            contentElement.appendChild(pastSongButton);
+
+            para2 = document.createElement("p");
+            node2 = document.createTextNode(mydata[getTodaysNumber()-1-i].ArtistName + " - " + mydata[getTodaysNumber()-1-i].SongName);
+            para2.appendChild(node2);
+            para2.setAttribute("id", "Spoiler");
+            contentElement.appendChild(para2);
+        }
     }
 }
