@@ -275,8 +275,8 @@ data = [
         "SourceLink":"https://www.youtube.com/embed/5IOVkstxkdE?start=90",
     }, //55
     {
-        "ArtistName":"Welcome Tune",
-        "SongName":"Versa",
+        "ArtistName":"Versa",
+        "SongName":"Welcome Tune",
         "SourceLink":"https://www.youtube.com/embed/bq6luLjiFH0?start=33",
     },
     {
@@ -310,7 +310,7 @@ data = [
         "SourceLink":"https://www.youtube.com/embed/9X4iXYqxlPA?start=65",
     },
     {
-        "ArtistName":"AFK, Carbin, Cody Ray",
+        "ArtistName":"AFK, Carbin, & Cody Ray",
         "SongName":"Boss",
         "SourceLink":"https://www.youtube.com/embed/UmCqnCOOVp0?start=51",
     },
@@ -375,54 +375,54 @@ data = [
         "SourceLink":"https://www.youtube.com/embed/G1afQM1g6VE?start=52",
     }, //75
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Flume",
+        "SongName":"Wall Fuck",
+        "SourceLink":"https://www.youtube.com/embed/0dtkfpTwDxU?start=66",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Flux Pavilion",
+        "SongName":"I Can't Stop",
+        "SourceLink":"https://www.youtube.com/embed/3Q9rewnLFYw?start=61",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Dr. Ozi",
+        "SongName":"Beauty & The Grim",
+        "SourceLink":"https://www.youtube.com/embed/D9DwlIo81QU?start=51",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Devath",
+        "SongName":"Chiptune",
+        "SourceLink":"https://www.youtube.com/embed/KUFA4dncVZA?start=27",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Xaebor",
+        "SongName":"Level Up",
+        "SourceLink":"https://www.youtube.com/embed/rkF9n0sHPDo?start=54",
     }, //80
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"MAD DUBZ",
+        "SongName":"Resonator",
+        "SourceLink":"https://www.youtube.com/embed/LH7XozDothg?start=39",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Hydraulix",
+        "SongName":"Flatline",
+        "SourceLink":"https://www.youtube.com/embed/1_wALzAKE3c?start=51",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Dubloadz",
+        "SongName":"Break The Rail",
+        "SourceLink":"https://www.youtube.com/embed/D89HGsaaq9g?start=51",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Jeto & Will Stetson",
+        "SongName":"Reaching Out",
+        "SourceLink":"https://www.youtube.com/embed/JTddKlp0s-Y?start=79",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Skrillex",
+        "SongName":"Kyoto",
+        "SourceLink":"https://www.youtube.com/embed/86khmc6y1yE?start=65",
     }, //85
     {
         "ArtistName":"",

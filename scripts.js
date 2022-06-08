@@ -10,16 +10,19 @@ document.addEventListener("keypress", function(event) {
 });
 
 function confirmAnswer() {
-    if (document.getElementById("guessField").value.toUpperCase() == mydata[getTodaysNumber()].SongName.toUpperCase()){
+    console.log(document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase());
+    console.log(mydata[getTodaysNumber()].SongName.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase());
+    
+    if (document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase() == mydata[getTodaysNumber()].SongName.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase()){
         showResponse(true);
     } else {
         showResponse(false);
     }
 }
 
-var song = new Audio();
-song.src = './Songs/' + addZerosBeforeNumber(getTodaysNumber()) + '.mp3';
 function playSong() {
+    var song = new Audio();
+    song.src = './Songs/' + addZerosBeforeNumber(getTodaysNumber()) + '.mp3';
     song.volume = .5;
     song.play();
 }
