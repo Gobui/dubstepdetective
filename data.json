@@ -16,412 +16,582 @@ data = [
     },
     {
         "ArtistName":"SVDDEN DEATH",
-        "SongName":"Rise",
+        "SongName": [
+            "Rise",
+        ],
         "SourceLink":"https://www.youtube.com/embed/sp82Dj_eI4E?start=27",
     },
     {
         "ArtistName":"Getter",
-        "SongName":"Inhalant Abuse",
+        "SongName": [
+            "Inhalant Abuse",
+        ],
         "SourceLink":"https://www.youtube.com/embed/Dk71nmMHrmc?start=37",
     }, //5
     {
         "ArtistName":"Papa Khan",
-        "SongName":"Rain",
+        "SongName": [
+            "Rain",
+        ],
         "SourceLink":"https://www.youtube.com/embed/T3byauqDrOE?start=38",
     },
     {
         "ArtistName":"G-REX & PEEKABOO",
-        "SongName":"Babatunde",
+        "SongName": [
+            "Babatunde",
+        ],
         "SourceLink":"https://www.youtube.com/embed/sgJS4sbcYiM?start=53",
     },
     {
         "ArtistName":"Ximm",
-        "SongName":"False",
+        "SongName": [
+            "False",
+        ],
         "SourceLink":"https://www.youtube.com/embed/diNHbXWGp8I?start=41",
     },
     {
         "ArtistName":"Pegboard Nerds",
-        "SongName":"Self Destruct",
+        "SongName": [
+            "Self Destruct",
+        ],
         "SourceLink":"https://www.youtube.com/embed/lWDnwTsdtaw?start=55",
     },
     {
         "ArtistName":"Spass",
-        "SongName":"Hi Tek",
+        "SongName": [
+            "Hi Tek",
+        ],
         "SourceLink":"https://www.youtube.com/embed/tE0jQmCSQlA?start=27",
     }, //10
     {
         "ArtistName":"Akeos & Jub",
-        "SongName":"Duel",
+        "SongName": [
+            "Duel",
+        ],
         "SourceLink":"https://www.youtube.com/embed/cnoUVG86suQ?start=26",
     },
     {
         "ArtistName":"Bukez Finest",
-        "SongName":"Duck Trumpet",
+        "SongName": [
+            "Duck Trumpet",
+        ],
         "SourceLink":"https://www.youtube.com/embed/42CKIf0ikP8?start=27",
     },
     {
         "ArtistName":"Zomboy",
-        "SongName":"Like A Bitch",
+        "SongName": [
+            "Like A Bitch",
+        ],
         "SourceLink":"https://www.youtube.com/embed/kod5PkTm_ts?start=25",
     },
     {
         "ArtistName":"Barely Alive",
-        "SongName":"Wompum",
+        "SongName": [
+            "Wompum",
+        ],
         "SourceLink":"https://www.youtube.com/embed/SO2HF1LQ5ZM?start=25",
     },
     {
         "ArtistName":"BLVNKSPVCE",
-        "SongName":"Beepy Boop Song",
+        "SongName": [
+            "Beepy Boop Song",
+            "Beepy Boopy Song",
+        ],
         "SourceLink":"https://www.youtube.com/embed/Ufr0CfhO_TM?start=27",
     }, //15
     {
         "ArtistName":"Subfiltronik",
-        "SongName":"Passout",
+        "SongName": [
+            "Passout",
+        ],
         "SourceLink":"https://www.youtube.com/embed/HkMep2LkFLs?start=27",
     },
     {
         "ArtistName":"Hukae",
-        "SongName":"Dirty Talk",
+        "SongName": [
+            "Dirty Talk",
+        ],
         "SourceLink":"https://www.youtube.com/embed/fdPSjrHGiFQ?start=26",
     },
     {
         "ArtistName":"Griz & Subtronics",
-        "SongName":"Griztronics",
+        "SongName": [
+            "Griztronics",
+            "Griztronicz",
+            "Griztronic",
+        ],
         "SourceLink":"https://www.youtube.com/embed/SodDWXUtTT4?start=41",
     },
     {
         "ArtistName":"Knife Party",
-        "SongName":"Centipede",
+        "SongName": [
+            "Centipede",
+        ],
         "SourceLink":"https://www.youtube.com/embed/CSemARaqGqE?start=81",
     },
     {
         "ArtistName":"Virtual Riot & Virus Syndicate",
-        "SongName":"Show Up",
+        "SongName": [
+            "Show Up",
+        ],
         "SourceLink":"https://www.youtube.com/embed/xOss4Kc8-nc?start=64",
     }, //20
     {
         "ArtistName":"Moore Kismet & Tasha Baxter",
-        "SongName":"Call of the Unicorn",
+        "SongName": [
+            "Call of the Unicorn",
+        ],
         "SourceLink":"https://www.youtube.com/embed/QfljR1xHKeM?start=64",
     },
     {
         "ArtistName":"Azabim, Cybertr0n, & Glockz",
-        "SongName":"Jagerwomb",
+        "SongName": [
+            "Jagerwomb",
+        ],
         "SourceLink":"https://www.youtube.com/embed/HLQefc_AGNE?start=27",
     },
     {
         "ArtistName":"Leotrix",
-        "SongName":"Hive Bounce",
+        "SongName": [
+            "Hive Bounce",
+        ],
         "SourceLink":"https://www.youtube.com/embed/3ajIOKJgT2g?start=34",
     },
     {
         "ArtistName":"Herobust",
-        "SongName":"WTF",
+        "SongName": [
+            "WTF",
+        ],
         "SourceLink":"https://www.youtube.com/embed/puk5r9b0Gjs?start=101",
     },
     {
         "ArtistName":"phonon",
-        "SongName":"Polyriddim",
+        "SongName": [
+            "Polyriddim",
+        ],
         "SourceLink":"https://www.youtube.com/embed/uE0YFvInlSY?start=41",
     }, //25
     {
         "ArtistName":"Gammer",
-        "SongName":"The Drop",
+        "SongName": [
+            "The Drop",
+        ],
         "SourceLink":"https://www.youtube.com/embed/VG8hI_5R2tw?start=51",
     },
     {
         "ArtistName":"DMVU",
-        "SongName":"BLOCCD",
+        "SongName": [
+            "Bloccd",
+        ],
         "SourceLink":"https://www.youtube.com/embed/5160JYgtxiY?start=54",
     },
     {
         "ArtistName":"Marauda",
-        "SongName":"Death Pit",
+        "SongName": [
+            "Death Pit",
+        ],
         "SourceLink":"https://www.youtube.com/embed/wqEyheZYTwc?start=26",
     },
     {
         "ArtistName":"Space Laces",
-        "SongName":"Disco Bloodbath",
+        "SongName": [
+            "Disco Bloodbath",
+        ],
         "SourceLink":"https://www.youtube.com/embed/h6Ne6MtcNdU?start=77",
     },
     {
         "ArtistName":"Ace Aura, Skybreak, & Sharks",
-        "SongName":"Another Heart",
+        "SongName": [
+            "Another Heart",
+        ],
         "SourceLink":"https://www.youtube.com/embed/ylPKKvqg_NY?start=63",
     }, //30
     {
         "ArtistName":"G Jones",
-        "SongName":"Fuck What You Heard",
+        "SongName": [
+            "Fuck What You Heard",
+        ],
         "SourceLink":"https://www.youtube.com/embed/_f_eUt8Fi-U?start=52",
     },
     {
         "ArtistName":"Automhate",
-        "SongName":"MOORG",
+        "SongName": [
+            "MOORG",
+        ],
         "SourceLink":"https://www.youtube.com/embed/9UAY_426g1o?start=132",
     },
     {
         "ArtistName":"Fox Stevenson",
-        "SongName":"Miss You",
+        "SongName": [
+            "Miss You",
+        ],
         "SourceLink":"https://www.youtube.com/embed/-VJFIlQ_x8A?start=51",
     },
     {
         "ArtistName":"Bommer & Crowell",
-        "SongName":"Yasou",
+        "SongName": [
+            "Yasou",
+        ],
         "SourceLink":"https://www.youtube.com/embed/Fl6viIH4UzY?start=27",
     },
     {
         "ArtistName":"Phiso",
-        "SongName":"Pattern Screamer",
+        "SongName": [
+            "Pattern Screamer",
+        ],
         "SourceLink":"https://www.youtube.com/embed/pUVXVjVHMYY?start=44",
     }, //35
     {
         "ArtistName":"Chime",
-        "SongName":"Phototropic",
+        "SongName": [
+            "Phototropic",
+        ],
         "SourceLink":"https://www.youtube.com/embed/71AMtQLi-74?start=76",
     },
     {
         "ArtistName":"Eliminate & Shaquille O'Neal",
-        "SongName":"Tear It Up",
+        "SongName": [
+            "Tear It Up",
+        ],
         "SourceLink":"https://www.youtube.com/embed/GKUnYQQgwLA?start=56",
     },
     {
         "ArtistName":"WAVEDASH",
-        "SongName":"Dummo Loop",
+        "SongName": [
+            "Dummo Loop",
+        ],
         "SourceLink":"https://www.youtube.com/embed/wjK9iudUaAc?start=28",
     },
     {
         "ArtistName":"Tristam & Braken",
-        "SongName":"Flight",
+        "SongName": [
+            "Flight",
+        ],
         "SourceLink":"https://www.youtube.com/embed/OVMuwa-HRCQ?start=56",
     },
     {
         "ArtistName":"TroyBoi & Skrillex",
-        "SongName":"WARLORDZ",
+        "SongName": [
+            "WARLORDZ",
+            "WARLORDS",
+        ],
         "SourceLink":"https://www.youtube.com/embed/5_Bn7j-H2Eg?start=26",
     }, //40
     {
         "ArtistName":"Infekt",
-        "SongName":"Orgalorg",
+        "SongName": [
+            "Orgalorg",
+            "Orgalord",
+        ],
         "SourceLink":"https://www.youtube.com/embed/M2_RCYYBn7Q?start=54",
     },
     {
         "ArtistName":"Veer",
-        "SongName":"Jerk Off",
+        "SongName": [
+            "Jerk Off",
+        ],
         "SourceLink":"https://www.youtube.com/embed/D9yAmKblAOk?start=32",
     },
     {
         "ArtistName":"Oolacile",
-        "SongName":"Riddim Girl",
+        "SongName": [
+            "Riddim Girl",
+        ],
         "SourceLink":"https://www.youtube.com/embed/EujP8OKuJP8?start=102",
     },
     {
         "ArtistName":"Au5",
-        "SongName":"Cryptochrome",
+        "SongName": [
+            "Cryptochrome",
+        ],
         "SourceLink":"https://www.youtube.com/embed/fmWrHUXkgJM?start=62",
     },
     {
         "ArtistName":"Barely Alive, Nyptane, and XO ELIZA",
-        "SongName":"Electric Lady",
+        "SongName": [
+            "Electric Lady",
+        ],
         "SourceLink":"https://www.youtube.com/embed/J4xiIyvcuPU?start=66",
     }, //45
     {
         "ArtistName":"Soltan",
-        "SongName":"Sahara",
+        "SongName": [
+            "Sahara",
+        ],
         "SourceLink":"https://www.youtube.com/embed/R98zyMpjGZQ?start=64",
     },
     {
         "ArtistName":"Neonix",
-        "SongName":"Spacewalk",
+        "SongName": [
+            "Spacewalk",
+        ],
         "SourceLink":"https://www.youtube.com/embed/1Es6HqK_160?start=27",
     },
     {
         "ArtistName":"Dirt Monkey",
-        "SongName":"Lift Off",
+        "SongName": [
+            "Liftoff",
+        ],
         "SourceLink":"https://www.youtube.com/embed/0gr20tdwgYI?start=51",
     },
     {
         "ArtistName":"Trinergy",
-        "SongName":"Romantic Story",
+        "SongName": [
+            "Romantic Story",
+        ],
         "SourceLink":"https://www.youtube.com/embed/_VOnExrL5ds?start=53",
     },
     {
         "ArtistName":"BadKlaat",
-        "SongName":"Head Crush",
+        "SongName": [
+            "Head Crush",
+        ],
         "SourceLink":"https://www.youtube.com/embed/1wakUPJakx8?start=53",
     }, //50
     {
         "ArtistName":"Xilent",
-        "SongName":"The Darkness",
+        "SongName": [
+            "The Darkness",
+        ],
         "SourceLink":"https://www.youtube.com/embed/24YtJSdkF9w?start=92",
     },
     {
         "ArtistName":"Spag Heddy",
-        "SongName":"Zoom",
+        "SongName": [
+            "Zoom",
+        ],
         "SourceLink":"https://www.youtube.com/embed/O9X9TC9pm-o?start=51",
     },
     {
         "ArtistName":"JOYRYDE & Skrillex",
-        "SongName":"AGEN WIDA",
+        "SongName": [
+            "AGEN WIDA",
+        ],
         "SourceLink":"",
     },
     {
         "ArtistName":"SVDDEN DEATH",
-        "SongName":"Behemoth",
+        "SongName": [
+            "Behemoth",
+        ],
         "SourceLink":"https://www.youtube.com/embed/O7XEmITu6ro?start=30",
     },
     {
         "ArtistName":"Virtual Riot",
-        "SongName":"Energy Drink",
+        "SongName": [
+            "Energy Drink",
+        ],
         "SourceLink":"https://www.youtube.com/embed/5IOVkstxkdE?start=90",
     }, //55
     {
         "ArtistName":"Versa",
-        "SongName":"Welcome Tune",
+        "SongName": [
+            "Welcome Tune",
+        ],
         "SourceLink":"https://www.youtube.com/embed/bq6luLjiFH0?start=33",
     },
     {
         "ArtistName":"Boombox Cartel & Quix",
-        "SongName":"Supernatural",
+        "SongName": [
+            "Supernatural",
+        ],
         "SourceLink":"https://www.youtube.com/embed/mqnb0kKsNkQ?start=67",
     },
     {
         "ArtistName":"Gladez & HEKLER",
-        "SongName":"404",
+        "SongName": [
+            "404",
+        ],
         "SourceLink":"https://www.youtube.com/embed/nE47JZxpbUg?start=51",
     },
     {
         "ArtistName":"Ray Volpe",
-        "SongName":"Battle of the Bros",
+        "SongName": [
+            "Battle of the Bros",
+        ],
         "SourceLink":"https://www.youtube.com/embed/hOoGuu64cLM?start=72",
     },
     {
         "ArtistName":"DotEXE",
-        "SongName":"Run Away From Me",
+        "SongName": [
+            "Run Away From Me",
+        ],
         "SourceLink":"https://www.youtube.com/embed/PFH1aEjKfjE?start=45",
     }, //60
     {
         "ArtistName":"Sharks",
-        "SongName":"Opal",
+        "SongName": [
+            "Opal",
+        ],
         "SourceLink":"https://www.youtube.com/embed/dM4m5lLlRNI?start=64",
     },
     {
         "ArtistName":"Macky Gee",
-        "SongName":"Tour",
+        "SongName": [
+            "Tour",
+        ],
         "SourceLink":"https://www.youtube.com/embed/9X4iXYqxlPA?start=65",
     },
     {
         "ArtistName":"AFK, Carbin, & Cody Ray",
-        "SongName":"Boss",
+        "SongName": [
+            "Boss",
+        ],
         "SourceLink":"https://www.youtube.com/embed/UmCqnCOOVp0?start=51",
     },
     {
         "ArtistName":"Convexity",
-        "SongName":"Lattice",
+        "SongName": [
+            "Lattice",
+        ],
         "SourceLink":"https://www.youtube.com/embed/AfrSKpIK8QY?start=51",
     },
     {
         "ArtistName":"JoeB",
-        "SongName":"Petrol For Dinner",
+        "SongName": [
+            "Petrol For Dinner",
+        ],
         "SourceLink":"https://www.youtube.com/embed/w3_GUbnzXBc?start=60",
     }, //65
     {
         "ArtistName":"Ace Aura",
-        "SongName":"Coma",
+        "SongName": [
+            "Coma",
+        ],
         "SourceLink":"https://www.youtube.com/embed/HJjclxJX-4c?start=31",
     },
     {
         "ArtistName":"Syzy",
-        "SongName":"Goin' Ham",
+        "SongName": [
+            "Goin' Ham",
+            "Going Ham"
+        ],
         "SourceLink":"https://www.youtube.com/embed/Q-HvuenvINs?start=39",
     },
     {
         "ArtistName":"Franky Nuts",
-        "SongName":"All I Want",
+        "SongName": [
+            "All I Want",
+        ],
         "SourceLink":"https://www.youtube.com/embed/uNYUaOs8hqM?start=39",
     },
     {
         "ArtistName":"Marauda",
-        "SongName":"Casket",
+        "SongName": [
+            "Casket",
+        ],
         "SourceLink":"https://www.youtube.com/embed/DLRTyIYhBOo?start=52",
     },
     {
         "ArtistName":"Papa Khan & Brave",
-        "SongName":"Fall Apart",
+        "SongName": [
+            "Fall Apart",
+        ],
         "SourceLink":"https://www.youtube.com/embed/HFxZIOOKY8k?start=66",
     }, //70
     {
         "ArtistName":"Hairitage & Rico Act",
-        "SongName":"40 Cal",
+        "SongName": [
+            "40 Cal",
+        ],
         "SourceLink":"https://www.youtube.com/embed/zyXq2QiOBYI?start=50",
     },
     {
         "ArtistName":"Mr. Bill",
-        "SongName":"Pleasure Seeker",
+        "SongName": [
+            "Pleasure Seeker",
+        ],
         "SourceLink":"https://www.youtube.com/embed/FnyVZr3yyDY?start=12",
     },
     {
         "ArtistName":"Space Laces",
-        "SongName":"Dominate",
+        "SongName": [
+            "Dominate",
+        ],
         "SourceLink":"https://www.youtube.com/embed/C8kzLlnt0rY?start=60",
     },
     {
         "ArtistName":"RIOT",
-        "SongName":"Overkill",
+        "SongName": [
+            "Overkill",
+        ],
         "SourceLink":"https://www.youtube.com/embed/A8pOVirjGF0?start=104",
     },
     {
         "ArtistName":"Voltra",
-        "SongName":"Luma Drive",
+        "SongName": [
+            "Luma Drive",
+        ],
         "SourceLink":"https://www.youtube.com/embed/G1afQM1g6VE?start=52",
     }, //75
     {
         "ArtistName":"Flume",
-        "SongName":"Wall Fuck",
+        "SongName": [
+            "Wall Fuck",
+        ],
         "SourceLink":"https://www.youtube.com/embed/0dtkfpTwDxU?start=66",
     },
     {
         "ArtistName":"Flux Pavilion",
-        "SongName":"I Can't Stop",
+        "SongName": [
+            "I Can't Stop",
+        ],
         "SourceLink":"https://www.youtube.com/embed/3Q9rewnLFYw?start=61",
     },
     {
         "ArtistName":"Dr. Ozi",
-        "SongName":"Beauty & The Grim",
+        "SongName": [
+            "Beauty & The Grim",
+        ],
         "SourceLink":"https://www.youtube.com/embed/D9DwlIo81QU?start=51",
     },
     {
         "ArtistName":"Devath",
-        "SongName":"Chiptune",
+        "SongName": [
+            "Chiptune",
+        ],
         "SourceLink":"https://www.youtube.com/embed/KUFA4dncVZA?start=27",
     },
     {
         "ArtistName":"Xaebor",
-        "SongName":"Level Up",
+        "SongName": [
+            "Level Up",
+        ],
         "SourceLink":"https://www.youtube.com/embed/rkF9n0sHPDo?start=54",
     }, //80
     {
         "ArtistName":"MAD DUBZ",
-        "SongName":"Resonator",
+        "SongName": [
+            "Resonator",
+        ],
         "SourceLink":"https://www.youtube.com/embed/LH7XozDothg?start=39",
     },
     {
         "ArtistName":"Hydraulix",
-        "SongName":"Flatline",
+        "SongName": [
+            "Flatline",
+        ],
         "SourceLink":"https://www.youtube.com/embed/1_wALzAKE3c?start=51",
     },
     {
         "ArtistName":"Dubloadz",
-        "SongName":"Break The Rail",
+        "SongName": [
+            "Break The Rail",
+        ],
         "SourceLink":"https://www.youtube.com/embed/D89HGsaaq9g?start=51",
     },
     {
         "ArtistName":"Jeto & Will Stetson",
-        "SongName":"Reaching Out",
+        "SongName": [
+            "Reaching Out",
+        ],
         "SourceLink":"https://www.youtube.com/embed/JTddKlp0s-Y?start=79",
     },
     {
         "ArtistName":"Skrillex",
-        "SongName":"Kyoto",
+        "SongName": [
+            "Kyoto",
+        ],
         "SourceLink":"https://www.youtube.com/embed/86khmc6y1yE?start=65",
     }, //85
     {

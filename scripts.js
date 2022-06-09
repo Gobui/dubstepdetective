@@ -10,14 +10,21 @@ document.addEventListener("keypress", function(event) {
 });
 
 function confirmAnswer() {
-    console.log(document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase());
-    console.log(mydata[getTodaysNumber()].SongName.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase());
-    
-    if (document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase() == mydata[getTodaysNumber()].SongName.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase()){
+    if (checkAnswer()){
         showResponse(true);
     } else {
         showResponse(false);
     }
+}
+
+function checkAnswer(){
+    for (let i = 0; i < mydata[getTodaysNumber()].SongName.length; i++){
+        if (document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase().replace(/\s/g,'') == mydata[getTodaysNumber()].SongName[i].replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase().replace(/\s/g,'')){
+            return true;
+        }
+    }
+    
+    return false;
 }
 
 function playSong() {
@@ -61,7 +68,7 @@ function showResponse(guessedCorrectlyBoolean) {
     
     if (guessedCorrectlyBoolean){
         document.getElementById("content").innerHTML = "";
-        node = document.createTextNode("Correct! The answer was " + mydata[getTodaysNumber()].SongName + " by " + mydata[getTodaysNumber()].ArtistName);
+        node = document.createTextNode("Correct! The answer was " + mydata[getTodaysNumber()].SongName[0] + " by " + mydata[getTodaysNumber()].ArtistName);
         para.appendChild(node);
         contentElement.appendChild(para);
         
@@ -86,7 +93,7 @@ function giveUp(){
     node = document.createTextNode("");
     
     document.getElementById("content").innerHTML = "";
-    node = document.createTextNode("The answer was " + mydata[getTodaysNumber()].SongName + " by " + mydata[getTodaysNumber()].ArtistName + ". Maybe next time!");
+    node = document.createTextNode("The answer was " + mydata[getTodaysNumber()].SongName[0] + " by " + mydata[getTodaysNumber()].ArtistName + ". Maybe next time!");
     para.appendChild(node);
     contentElement.appendChild(para);
 
