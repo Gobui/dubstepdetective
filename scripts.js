@@ -1,5 +1,5 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 71;
+const NumOfSongsSoFar = 105;
 
 document.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
@@ -19,6 +19,9 @@ function confirmAnswer() {
 
 function checkAnswer(){
     for (let i = 0; i < mydata[getTodaysNumber()].SongName.length; i++){
+        //console.log(document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase().replace(/\s/g,''));
+        //console.log(mydata[getTodaysNumber()].SongName[i].replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase().replace(/\s/g,''));
+        
         if (document.getElementById("guessField").value.replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").replace("&","and").toUpperCase().replace(/\s/g,'') == mydata[getTodaysNumber()].SongName[i].replace(/[.,\/#!$%\^'\*;:{}=\-_`~()]/g,"").toUpperCase().replace(/\s/g,'')){
             return true;
         }
@@ -145,7 +148,7 @@ function loadPastGames() {
             contentElement.appendChild(pastSongButton);
 
             para2 = document.createElement("p");
-            node2 = document.createTextNode(mydata[getTodaysNumber()-1-i].ArtistName + " - " + mydata[getTodaysNumber()-1-i].SongName);
+            node2 = document.createTextNode(mydata[getTodaysNumber()-1-i].ArtistName + " - " + mydata[getTodaysNumber()-1-i].SongName[0]);
             para2.appendChild(node2);
             para2.setAttribute("id", "Spoiler");
             contentElement.appendChild(para2);

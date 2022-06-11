@@ -595,78 +595,471 @@ data = [
         "SourceLink":"https://www.youtube.com/embed/86khmc6y1yE?start=65",
     }, //85
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Leotrix",
+        "SongName": [
+            "Emoboy303",
+            "Side",
+            "Emoboy303 (Side)",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/HbWVa8T_pNU?start=59",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Jub",
+        "SongName": [
+            "Big Daddy",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/T9Th1WyuV0Q?start=24",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"YOKED",
+        "SongName": [
+            "DEKOY",
+            "DECOY",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/hiATG0CXv1Y?start=41",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"RL Grime",
+        "SongName": [
+            "Core",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/04ufimjXEbA?start=50",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Similar Outskirts",
+        "SongName": [
+            "Headspace",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/th_NkjM6esQ?start=166",
     }, //90
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Phiso",
+        "SongName": [
+            "Jotaro",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/2rolzQBdlw8?start=26",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Marshmello & Ookay",
+        "SongName": [
+            "Chasing Colors",
+            "Chasing Colours",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/zInL1ZUPu7s?start=37",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Explorers of the Internet",
+        "SongName": [
+            "ALL U WANT FOR CHRISTMAS 3",
+            "ALL U WANT FOR CHRISTMAS",
+            "ALL U WANT FOR CHRISTMAS (2021)",
+            "ALL U WANT FOR CHRISTMAS (2021 Version)",
+            "ALL I WANT FOR CHRISTMAS 3",
+            "ALL I WANT FOR CHRISTMAS",
+            "ALL I WANT FOR CHRISTMAS (2021)",
+            "ALL I WANT FOR CHRISTMAS (2021 Version)",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/nfl_S_7ABEo?start=1806",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Virtual Riot",
+        "SongName": [
+            "Preset Junkies",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/fHNkKhX9dzo?start=39",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Kaval, Distayne, Storyboard, Castle Blaster, Skybreak, & Azure Spark",
+        "SongName": [
+            "Resonator Trend Machine",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/Hbhw_T5v4SY?start=50",
     }, //95
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"LAXX",
+        "SongName": [
+            "Swamp Thing",
+            "The Swamp Thing",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/qYrgBd2OsS4?start=50",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Chibs",
+        "SongName": [
+            "Sharingan",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/UuP24gx7tgs?start=26",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"qwaston",
+        "SongName": [
+            "leave me alone",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/-7sd6QJBUts?start=51",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Barely Alive & Armanni Reign",
+        "SongName": [
+            "Hackers",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/be1Z7TSXfIs?start=54",
     },
     {
-        "ArtistName":"",
-        "SongName":"",
-        "SourceLink":"",
+        "ArtistName":"Soltan",
+        "SongName": [
+            "Beruit",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/BTSWzU6rVkg?start=79",
     }, //100
+    {
+        "ArtistName":"Eptic",
+        "SongName": [
+            "Shadow People",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/7S0UTG7f5x4?start=42",
+    },
+    {
+        "ArtistName":"Subtronics",
+        "SongName": [
+            "Spacetime",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/bdpv-wuY9qo?start=91",
+    },
+    {
+        "ArtistName":"MVRDA",
+        "SongName": [
+            "Ball Licker",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/BGiNYSJjGo4?start=38",
+    },
+    {
+        "ArtistName":"Oski & The Arcturians",
+        "SongName": [
+            "Go My Way",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/lFKgSNmQHBs?start=76",
+    },
+    {
+        "ArtistName":"Stinkahbell",
+        "SongName": [
+            "Something In Your Eyes (VIP)",
+            "Something In Your Eyes",
+        ],
+        "SourceLink":"https://www.youtube.com/embed/lD86bUYZKlM?start=55",
+    }, //105
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //110
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //115
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //120
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //125
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //130
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //135
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //140
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //145
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    },
+    {
+        "ArtistName":"",
+        "SongName": [
+            "",
+        ],
+        "SourceLink":"",
+    }, //150
 ]
