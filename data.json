@@ -1,17 +1,23 @@
 data = [
     {
         "ArtistName":"Leotrix",
-        "SongName":"Sight",
+        "SongName": [
+            "Sight",
+        ],
         "SourceLink":"https://www.youtube.com/embed/NxfV5_SycQ4?start=26",
     }, //1
     {
         "ArtistName":"MUST DIE!",
-        "SongName":"CHAOS",
+        "SongName": [
+            "CHAOS",
+        ],
         "SourceLink":"https://www.youtube.com/embed/LplkeM206Xs?start=43",
     },
     {
         "ArtistName":"Aweminus",
-        "SongName":"Sea Shanty",
+        "SongName": [
+            "Sea Shanty",
+        ],
         "SourceLink":"https://www.youtube.com/embed/a2Mfro50Fps?start=51",
     },
     {
