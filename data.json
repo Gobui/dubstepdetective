@@ -398,7 +398,7 @@ data = [
         "SourceLink":"https://www.youtube.com/embed/bq6luLjiFH0?start=33",
     },
     {
-        "ArtistName":"Boombox Cartel & Quix",
+        "ArtistName":"Boombox Cartel, Quix & Anjulie",
         "SongName": [
             "Supernatural",
         ],
@@ -549,6 +549,7 @@ data = [
         "ArtistName":"Dr. Ozi",
         "SongName": [
             "Beauty & The Grim",
+            "Beauty and The Grim",
         ],
         "SourceLink":"https://www.youtube.com/embed/D9DwlIo81QU?start=51",
     },
@@ -714,7 +715,9 @@ data = [
     {
         "ArtistName":"Soltan",
         "SongName": [
+            "Beirut",
             "Beruit",
+            "Beriut",
         ],
         "SourceLink":"https://www.youtube.com/embed/BTSWzU6rVkg?start=79",
     }, //100
@@ -957,6 +960,7 @@ data = [
         "ArtistName":"SVDDEN DEATH & Aweminus",
         "SongName": [
             "Mr. Muscles",
+            "Mr Muscles",
         ],
         "SourceLink":"https://www.youtube.com/embed/cVFQAlRBU3w?start=25",
     },
@@ -1019,7 +1023,7 @@ data = [
     {
         "ArtistName":"Samplifire",
         "SongName": [
-            "Beserker",
+            "Berserker",
         ],
         "SourceLink":"https://www.youtube.com/embed/VcQHoBZ5zk0?start=64",
     },
@@ -1098,6 +1102,7 @@ data = [
         "ArtistName":"Knock2",
         "SongName": [
             "dashstar*",
+            "dashstar",
         ],
         "SourceLink":"https://www.youtube.com/embed/58ml5b_On6w?start=45",
     },
