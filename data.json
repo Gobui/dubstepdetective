@@ -236,6 +236,7 @@ data = [
     {
         "ArtistName":"Bommer & Crowell",
         "SongName": [
+            "Yasuo",
             "Yasou",
         ],
         "SourceLink":"https://www.youtube.com/embed/Fl6viIH4UzY?start=27",
