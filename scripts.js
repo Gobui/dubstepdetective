@@ -1,5 +1,6 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 105;
+const NumOfSongsSoFar = 180;
+const StartDate = new Date("06/03/22");
 
 document.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
@@ -48,10 +49,9 @@ function playOldSong(value){
 
 function getTodaysNumber(){
     var date1 = new Date();
-    var date2 = new Date("06/03/22"); //Starting date?
     
     // To calculate the time difference of two dates
-    var Difference_In_Time = date1.getTime() - date2.getTime();
+    var Difference_In_Time = date1.getTime() - StartDate.getTime();
     
     // To calculate the no. of days between two dates
     var Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
@@ -119,39 +119,43 @@ function hint(){
     responseElement.appendChild(para);
 }
 
-function stopLoadingGame(){
-    document.getElementById("content").innerHTML = "Sorry, we're under construction for now. Check back later :)";
-}
-
 function loadPastGames() {
     if (NumOfSongsSoFar <= getTodaysNumber()){
-        stopLoadingGame();
+        for (let i = 0; i < NumOfSongsSoFar; i++){
+            ActuallyLoadPastGames(i);
+        }
+        document.getElementById("content").innerHTML = "Sorry, we're under construction for now. Check back later :)";
     } else {
-        var today = new Date();
-        var pastDate = new Date(today);
-        var contentElement = document.getElementById("pastGames");
-
         for (let i = 0; i < getTodaysNumber(); i++){
-            pastDate.setDate(pastDate.getDate() - 1);
-            var date = pastDate.toLocaleDateString();
-
-            para = document.createElement("p");
-            node = document.createTextNode(date + " : ");
-            para.setAttribute("id", "pastDate");
-            para.appendChild(node);
-            contentElement.appendChild(para);
-
-            var pastSongButton = new Image();
-            pastSongButton.src = 'PlaySmall.png';
-            pastSongButton.setAttribute("id", "pastSongButton");
-            pastSongButton.setAttribute("onclick", "playOldSong("+i+");");
-            contentElement.appendChild(pastSongButton);
-
-            para2 = document.createElement("p");
-            node2 = document.createTextNode(mydata[getTodaysNumber()-1-i].ArtistName + " - " + mydata[getTodaysNumber()-1-i].SongName[0]);
-            para2.appendChild(node2);
-            para2.setAttribute("id", "Spoiler");
-            contentElement.appendChild(para2);
+            ActuallyLoadPastGames(i);
         }
     }
+}
+
+function ActuallyLoadPastGames(i) {
+    var contentElement = document.getElementById("PastGames");
+    
+    var today = new Date(StartDate);
+    today.setDate(StartDate.getDate() + i);
+    var date = today.toLocaleDateString();
+
+    para2 = document.createElement("p");
+    node2 = document.createTextNode(mydata[i].ArtistName + " - " + mydata[i].SongName[0]);
+    para2.appendChild(node2);
+    para2.setAttribute("id", "Spoiler");
+    contentElement.prepend(para2);
+
+    var pastSongButton = new Image();
+    pastSongButton.src = 'PlaySmall.png';
+    pastSongButton.setAttribute("id", "pastSongButton");
+    var numTemp = getTodaysNumber()-i-1;
+    pastSongButton.setAttribute("onclick", "playOldSong("+numTemp+");");
+    //contentElement.append(pastSongButton);
+    contentElement.prepend(pastSongButton);
+
+    para = document.createElement("p");
+    node = document.createTextNode(date + " : ");
+    para.setAttribute("id", "pastDate");
+    para.appendChild(node);
+    contentElement.prepend(para);
 }

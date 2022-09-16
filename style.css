@@ -36,7 +36,7 @@ button:hover {
     background-color: #525252;
 }
 
-#pastGames {
+#pastGamesInfo {
     padding: 600 100 30;
 }
 
@@ -45,9 +45,15 @@ button:hover {
     border-color: #767676;
     border-style: solid;
     display: inline-block;
-    width: 400;
+    width: 500;
     padding: 5;
     margin: 0 20 0 20;
+    background-color: #222222;
+    user-select: none;
+}
+
+#spoiler:active {
+    background-color: #767676;
 }
 
 #pastSongButton {
