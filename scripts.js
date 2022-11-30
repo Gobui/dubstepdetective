@@ -1,5 +1,5 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 180;
+const NumOfSongsSoFar = 259;
 const StartDate = new Date("06/03/22");
 
 document.addEventListener("keypress", function(event) {
