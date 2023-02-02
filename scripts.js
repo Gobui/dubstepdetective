@@ -1,5 +1,5 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 259;
+const NumOfSongsSoFar = 294;
 const StartDate = new Date("06/03/22");
 
 document.addEventListener("keypress", function(event) {
@@ -69,7 +69,7 @@ function showResponse(guessedCorrectlyBoolean) {
     para = document.createElement("p");
     node = document.createTextNode("");
     
-    if (guessedCorrectlyBoolean){
+    if (guessedCorrectlyBoolean){ //true
         document.getElementById("content").innerHTML = "";
         node = document.createTextNode("Correct! The answer was " + mydata[getTodaysNumber()].SongName[0] + " by " + mydata[getTodaysNumber()].ArtistName);
         para.appendChild(node);
@@ -81,7 +81,7 @@ function showResponse(guessedCorrectlyBoolean) {
         iframe.height="315";
         contentElement.appendChild(iframe);
         
-    } else {
+    } else { //false
         document.getElementById("response").innerHTML = "";
         node = document.createTextNode("Incorrect.");
         para.appendChild(node);
