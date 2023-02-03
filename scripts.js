@@ -1,5 +1,5 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 294;
+const NumOfSongsSoFar = 310;
 const StartDate = new Date("06/03/22");
 
 document.addEventListener("keypress", function(event) {
@@ -139,8 +139,19 @@ function ActuallyLoadPastGames(i) {
     today.setDate(StartDate.getDate() + i);
     var date = today.toLocaleDateString();
 
-    para2 = document.createElement("p");
-    node2 = document.createTextNode(mydata[i].ArtistName + " - " + mydata[i].SongName[0]);
+    para2 = document.createElement("span");
+    node2 = document.createTextNode(mydata[i].ArtistName);
+    para2.appendChild(node2);
+    para2.setAttribute("id", "Spoiler");
+    contentElement.prepend(para2);
+    
+    para2 = document.createElement("span");
+    node2 = document.createTextNode(" by ");
+    para2.appendChild(node2);
+    contentElement.prepend(para2);
+    
+    para2 = document.createElement("span");
+    node2 = document.createTextNode(mydata[i].SongName[0]);
     para2.appendChild(node2);
     para2.setAttribute("id", "Spoiler");
     contentElement.prepend(para2);

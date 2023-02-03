@@ -45,11 +45,12 @@ button:hover {
     border-color: #767676;
     border-style: solid;
     display: inline-block;
-    width: 500;
+    width: 270;
     padding: 5;
-    margin: 0 20 0 20;
+    margin: 5 10 5 10;
     background-color: #222222;
     user-select: none;
+    vertical-align:middle
 }
 
 #spoiler:active {
