@@ -1,5 +1,5 @@
 const mydata = JSON.parse(JSON.stringify(data));
-const NumOfSongsSoFar = 362;
+const NumOfSongsSoFar = 366;
 const StartDate = new Date("06/03/22");
 
 document.addEventListener("keypress", function(event) {
@@ -124,7 +124,7 @@ function loadPastGames() {
         for (let i = 0; i < NumOfSongsSoFar; i++){
             ActuallyLoadPastGames(i);
         }
-        document.getElementById("content").innerHTML = "Sorry, we're under construction for now. Check back later :)";
+        document.getElementById("content").innerHTML = "Dubstep Detective was a project that ran from June 2022 to June 2023. Thanks for playing! :)";
     } else {
         for (let i = 0; i < getTodaysNumber(); i++){
             ActuallyLoadPastGames(i);
